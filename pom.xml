@@ -10,6 +10,14 @@
 		<tycho-version>0.25.0</tycho-version>
 	</properties>
 
+<distributionManagement>
+  <repository>
+      <id>snapshots-repo</id>
+      <url>https://dl.bintray.com/abstratt/Snapshots/;publish=1</url>
+  </repository>
+</distributionManagement>
+
+
   <build>
        <pluginManagement>
        <plugins>
