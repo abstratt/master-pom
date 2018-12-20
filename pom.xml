@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.abstratt</groupId>
 	<artifactId>master</artifactId>
-	<version>3.0</version>
+	<version>4.0</version>
 	<packaging>pom</packaging>
 	<properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -13,7 +13,7 @@
 <distributionManagement>
   <repository>
       <id>bintray-abstratt-oss-abstratt-oss</id>
-      <url>https://api.bintray.com/maven/abstratt-oss/abstratt-oss/abstratt-oss/;publish=1</url>
+      <url>https://api.bintray.com/maven/abstratt-oss/abstratt-oss/abstratt-oss/;publish=1;override=1</url>
 	  </repository>
 <!--
   <repository>
