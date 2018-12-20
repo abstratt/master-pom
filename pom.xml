@@ -15,6 +15,17 @@
       <id>bintray-abstratt-oss-abstratt-oss</id>
       <url>https://api.bintray.com/maven/abstratt-oss/abstratt-oss/abstratt-oss/;publish=1</url>
 	  </repository>
+<!--
+  <repository>
+    <id>packagecloud-abstratt-oss</id>
+    <url>packagecloud+https://packagecloud.io/abstratt/oss</url>
+  </repository>
+  <snapshotRepository>
+    <id>packagecloud-abstratt-oss</id>
+    <url>packagecloud+https://packagecloud.io/abstratt/oss</url>
+  </snapshotRepository>
+-->
+
 </distributionManagement>
 
 
@@ -48,6 +59,14 @@
         </configuration>
       </plugin>
        </plugins>
+
+  <extensions>
+    <extension>
+      <groupId>io.packagecloud.maven.wagon</groupId>
+      <artifactId>maven-packagecloud-wagon</artifactId>
+      <version>0.0.4</version>
+    </extension>
+  </extensions>
   </build>
 </project>
 
