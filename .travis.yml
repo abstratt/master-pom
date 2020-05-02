@@ -2,7 +2,7 @@ dist: trusty
 language: java
 jdk:
 - oraclejdk8
-install: mvn clean maven-deploy-plugin:2.8:deploy --settings deploy.settings.xml -DdeployAtEnd=true
+install: mvn clean maven-deploy-plugin:2.8.2:deploy --settings deploy.settings.xml -DdeployAtEnd=true
 notifications:
   email:
     on_success: change
